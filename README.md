@@ -262,7 +262,42 @@ Before running Hunter, make sure the following tools are installed and available
 ## 🚀 Usage
 
 ```bash
-./hunter.sh -d domains.txt -w wordlist.txt [OPTIONS]
+banner() {
+  clear
+  echo -e "${CYN}"
+  echo '  ██╗  ██╗██╗   ██╗███╗   ██╗████████╗███████╗██████╗ '
+  echo '  ██║  ██║██║   ██║████╗  ██║╚══██╔══╝██╔════╝██╔══██╗'
+  echo '  ███████║██║   ██║██╔██╗ ██║   ██║   █████╗  ██████╔╝'
+  echo '  ██╔══██║██║   ██║██║╚██╗██║   ██║   ██╔══╝  ██╔══██╗'
+  echo '  ██║  ██║╚██████╔╝██║ ╚████║   ██║   ███████╗██║  ██║'
+  echo '  ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚═╝  ╚═╝'
+  echo -e "${RST}"
+  echo -e "  ${DIM}${WHT}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${RST}"
+  echo -e "  ${CYN}       Bug Bounty Recon Framework ${DIM}|  v2.0 by Renzi${RST}"
+  echo -e "  ${DIM}${WHT}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${RST}"
+  echo ""
+}
+
+  Usage:
+    ./hunter.sh -d <domains.txt> -w <wordlist.txt> [OPTIONS]
+
+  Required:
+    -d, --domains  <file>    Domains list (one per line)
+    -w, --wordlist <file>    DNS brute-force wordlist
+
+  Options:
+    -o, --output   <dir>     Output directory (default: ./hunter-output)
+    -b, --background         Run in background, detach from terminal
+    -h, --help               Show this help message
+
+  Examples:
+    # Run in foreground
+    ./hunter.sh -d domains.txt -w wordlist.txt
+
+    # Run in background (detached, logs to hunter-output/hunter.log)
+    ./hunter.sh -d domains.txt -w wordlist.txt -o ./results -b
+
+
 ```
 
 ### Required Arguments
