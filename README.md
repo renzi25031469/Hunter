@@ -5,10 +5,10 @@
                                 ██╔══██║██║   ██║██║╚██╗██║   ██║   ██╔══╝  ██╔══██╗
                                 ██║  ██║╚██████╔╝██║ ╚████║   ██║   ███████╗██║  ██║
                                 ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚═╝  ╚═╝
+                                      Bug Bounty Recon Framework** v2.0 by Renzi
+
 ```
-
-                                   **Bug Bounty Recon Framework** v2.0 by Renzi
-
+    
 ---
 
 # 🇧🇷 Português
