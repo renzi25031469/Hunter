@@ -46,7 +46,38 @@ Antes de rodar o Hunter, certifique-se de ter as ferramentas abaixo instaladas e
 ## 🚀 Uso
 
 ```bash
-./hunter.sh -d domains.txt -w wordlist.txt [OPTIONS]
+
+  ██╗  ██╗██╗   ██╗███╗   ██╗████████╗███████╗██████╗ 
+  ██║  ██║██║   ██║████╗  ██║╚══██╔══╝██╔════╝██╔══██╗
+  ███████║██║   ██║██╔██╗ ██║   ██║   █████╗  ██████╔╝
+  ██╔══██║██║   ██║██║╚██╗██║   ██║   ██╔══╝  ██╔══██╗
+  ██║  ██║╚██████╔╝██║ ╚████║   ██║   ███████╗██║  ██║
+  ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚═╝  ╚═╝
+
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+         Bug Bounty Recon Framework |  v2.0 by Renzi
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Usage:
+    ./hunter.sh -d <domains.txt> -w <wordlist.txt> [OPTIONS]
+
+  Required:
+    -d, --domains  <file>    Domains list (one per line)
+    -w, --wordlist <file>    DNS brute-force wordlist
+
+  Options:
+    -o, --output   <dir>     Output directory (default: ./hunter-output)
+    -b, --background         Run in background, detach from terminal
+    -h, --help               Show this help message
+
+  Examples:
+    # Run in foreground
+    ./hunter.sh -d domains.txt -w wordlist.txt
+
+    # Run in background (detached, logs to hunter-output/hunter.log)
+    ./hunter.sh -d domains.txt -w wordlist.txt -o ./results -b
+
+
 ```
 
 ### Argumentos obrigatórios
