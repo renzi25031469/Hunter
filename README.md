@@ -1,19 +1,10 @@
 <p align="center">
-<pre>
-                                ██╗  ██╗██╗   ██╗███╗   ██╗████████╗███████╗██████╗
-                                ██║  ██║██║   ██║████╗  ██║╚══██╔══╝██╔════╝██╔══██╗
-                                ███████║██║   ██║██╔██╗ ██║   ██║   █████╗  ██████╔╝
-                                ██╔══██║██║   ██║██║╚██╗██║   ██║   ██╔══╝  ██╔══██╗
-                                ██║  ██║╚██████╔╝██║ ╚████║   ██║   ███████╗██║  ██║
-                                ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚═╝  ╚═╝
-</pre>
-</p>
-
+  
+![alt text](https://github.com/renzi25031469/Hunter/blob/main/hunter_banner_cyan.svg?raw=true)
 <p align="center">
   <b>Bug Bounty Recon Framework</b><br/>
   <sub>v2.0 · by Renzi · Public &amp; Private Programs</sub>
 </p>
-
 <p align="center">
   <img src="https://img.shields.io/badge/bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white"/>
   <img src="https://img.shields.io/badge/bug%20bounty-recon-0F6E56?style=for-the-badge"/>
